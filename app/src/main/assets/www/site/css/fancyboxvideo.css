@@ -1,0 +1,33 @@
+.fancybox-video {
+  display: none;
+}
+
+.fancybox-nav {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  height: 40%;
+}
+
+/**** DEMO STUFF ****/
+html, body {
+  padding: 1em;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: #eee;
+  display: block;
+  clear: left;
+  margin: 4em 0 2em 0;
+}
+
+.video-links {
+  list-style: none;
+  padding: 0;
+}
+.video-links li {
+  float: left;
+  margin-right: 10px;
+}

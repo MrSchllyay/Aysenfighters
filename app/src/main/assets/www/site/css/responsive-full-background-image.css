@@ -1,0 +1,14 @@
+/* Responsive Full Background Image Using CSS
+ * Tutorial URL: http://sixrevisions.com/css/responsive-background-image/
+*/
+body {
+    background-image: url("paper.gif");
+    background-repeat: repeat;
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 9999px) {
+  body {
+     background-color: coral;
+  }
+	}
